@@ -1,6 +1,6 @@
 {
-  "name": "Entertainment Hub",
-  "short_name": "Entertainment Hub",
+  "name": "CineSync",
+  "short_name": "CineSync",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone",
