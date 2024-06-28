@@ -1,5 +1,4 @@
-<p lign='center'>
-<img src="public/logo.png" width='350' alt='accessibility text'></p>
+# CineSync
 
 ## Description
 CineSync is a movie search application that displays trending Movies and TV series with their ratings, and makes an easy text search of Movies and TV series.
