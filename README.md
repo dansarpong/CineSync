@@ -1,19 +1,23 @@
 # CineSync
 
 ## Description
-CineSync is a movie search application that displays trending Movies and TV series with their ratings, and makes an easy text search of Movies and TV series.
+CineSync is a films discovery application that allows users to search for trending Movies and TV Series, view ratings, watch trailers, and browse cast galleries. It aims to make it easy for users to find and explore Films.
 
-# Features
+
+## Features
 With the app, you can:
 
-* See a list of trending Movies and TV series
-* Search for Movies and Tv series
-* Get desired movies and Series based on specified genres
-* Get ratings of Movies and Tv series
-* Watch film Trailers
+* See a list of trending Movies and TV Series
+* Search for Movies and TV Series
+* Get desired Movies and TV Series based on specified genres
+* Get ratings of Movies and TV Series
+* Watch Film trailers
 * View a gallery of cast members
 
-[Link to deployed version of app](https://cine-sync-blush.vercel.app/)
+![CineSync Preview](public/preview.png)
+
+**Deployed Site:** [CineSync](https://cine-sync-blush.vercel.app/)
+
 
 ## Dependencies
 * [React](https://reactjs.org/)                                         | ^17.0.1
@@ -24,3 +28,7 @@ With the app, you can:
 * [axios](https://axios-http.com)                                       | ^0.21.1
 * [react-alice-carousel](https://npmjs.com)                             | ^2.2.1
 * [react-router-dom](https://npmjs.com)                                 | ^5.2.0
+
+
+## Licensing
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
