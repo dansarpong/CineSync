@@ -10,7 +10,7 @@ import { useHistory } from "react-router-dom";
 
 /**
  * Styling to handle the navigation panel appearance
- * from Material ui
+ * from Material UI
  */
 const useStyles = makeStyles({
   root: {
@@ -29,7 +29,7 @@ export default function SimpleBottomNavigation() {
 
   /**
    * This hook handles the page clicked on by the user
-   * using history from React router dom
+   * using history from React Router DOM
    */
   useEffect(() => {
     if (value === 0) {
@@ -46,27 +46,31 @@ export default function SimpleBottomNavigation() {
   return (
     <BottomNavigation
       value={value}
-      onChange={(event, newValue) => {
+      onChange={(_, newValue) => {
         setValue(newValue);
       }}
       showLabels
       className={classes.root}
     >
+      {/* Trending page */}
       <BottomNavigationAction
         style={{ color: "white" }}
         label="Trending"
         icon={<WhatshotIcon />}
       />
+      {/* Movies page */}
       <BottomNavigationAction
         style={{ color: "white" }}
         label="Movies"
         icon={<MovieIcon />}
       />
+      {/* TV Series page */}
       <BottomNavigationAction
         style={{ color: "white" }}
         label="TV Series"
         icon={<TvIcon />}
       />
+      {/* Search page */}
       <BottomNavigationAction
         style={{ color: "white" }}
         label="Search"

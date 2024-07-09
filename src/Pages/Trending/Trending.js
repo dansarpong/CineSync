@@ -9,7 +9,7 @@ const Trending = () => {
   const [content, setContent] = useState([]);
 
   /**
-   * This function fetches the API using axios
+   * This function fetches the trending content from the API using axios
    */
   const fetchTrending = async () => {
     const { data } = await axios.get(
@@ -20,7 +20,8 @@ const Trending = () => {
   };
 
   /**
-   * Hook makes sure the page is set back up after page is changed
+   * This hook is triggered when the page state changes
+   * It scrolls the window to the top, fetches the trending content, and updates the content state
    */
   useEffect(() => {
     window.scroll(0, 0);
